@@ -9,6 +9,7 @@ Albert Einstein's birthday is 03/14/1879.
 Sadly, we don't have Alan Turing's birthday.
 Dejvid Vangjelofski's birthday is 29/05/1997.
 Gianluca Basso's birthday is 10/07/1997.
+Andrea Marino's birthday is 07/05/1998.
 ```
 
 
