@@ -1,4 +1,9 @@
 #! /usr/bin/env python3
+import argparse
+parser = argparse.ArgumentParser(description='Write text into the file')
+#define arguments
+parser.add_argument( action= 'store_true', choices=[], help='Test help', default=max )
+args = parser.parse_args()
 
 from mypackage.birthdays import return_birthday
 
