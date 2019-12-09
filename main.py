@@ -8,7 +8,7 @@ birthdays = {
 
 def return_birthday(name):
     if name in birthdays:
-        print('{}\'s birthday is {}.'.format(name, birthday[name]))
+        print('{}\'s birthday is {}.'.format(name, birthdays[name]))
     else:
         print('Sadly, we don\'t have {}\'s birthday.'.format(name))
 
@@ -17,11 +17,11 @@ import argparse
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
 parser.add_argument("name", help= "scientist name")
-#parser.add_argument("-v",)
+#parser.add_argument("birthdays",)
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 #ciao=return_birthday('Albert Einstein')
 args = parser.parse_args()
-risultato = args.birthday[name]
+risultato = args.birthdays[name]
 print (risultato)
 
 
