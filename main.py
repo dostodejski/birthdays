@@ -9,7 +9,7 @@ birthdays = {
 def return_birthday(name, birth):
     birth= birthdays[name]
     if name in birthdays:
-        print('{}\'s birthday is {}.'.format(name, birthdays[name]))
+        print('{}\'s birthday is {}.'.format(name, birth))
     else:
         print('Sadly, we don\'t have {}\'s birthday.'.format(name))
 
