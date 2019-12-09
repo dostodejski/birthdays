@@ -6,10 +6,9 @@ birthdays = {
     'Donald Trump': '06/14/1946',
     'Rowan Atkinson': '01/6/1955'}
 
-def return_birthday(name, birth):
-    birth= birthdays[name]
+def return_birthday(name):
     if name in birthdays:
-        print('{}\'s birthday is {}.'.format(name, birth))
+        print('{}\'s birthday is {}.'.format(name, birthday[name]))
     else:
         print('Sadly, we don\'t have {}\'s birthday.'.format(name))
 
@@ -22,7 +21,7 @@ parser.add_argument("name", help= "scientist name")
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 #ciao=return_birthday('Albert Einstein')
 args = parser.parse_args()
-risultato = args.birth
+risultato = args.birthday[name]
 print (risultato)
 
 
