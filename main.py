@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 import argparse
-from mypackage.birthdays import return_birthday
+#from mypackage.birthdays import return_birthday
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
 parser.add_argument("name", help= "scientist name")
