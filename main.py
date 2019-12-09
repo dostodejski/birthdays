@@ -17,7 +17,7 @@ import argparse
 #from mypackage.birthdays import return_birthday
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
-parser.add_argument("birth", help= "scientist name")
+parser.add_argument("name", help= "scientist name")
 #parser.add_argument("-v",)
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 #ciao=return_birthday('Albert Einstein')
