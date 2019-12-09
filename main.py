@@ -21,7 +21,7 @@ import argparse
 #from mypackage.birthdays import return_birthday
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
-parser.add_argument("", help= "list of names")
+parser.add_argument("print_birthdays()", help= "list of names")
 parser.add_argument("--name", help= "insert one of the scientist name of the list")
 args = parser.parse_args()
 risultato1 = print_birthdays(args.name)
