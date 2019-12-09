@@ -21,7 +21,7 @@ parser.add_argument("name", help= "scientist name")
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 #ciao=return_birthday('Albert Einstein')
 args = parser.parse_args()
-risultato = args.name
+risultato = args.birthdays[name]
 print (risultato)
 
 
