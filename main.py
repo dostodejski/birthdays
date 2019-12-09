@@ -9,7 +9,7 @@ parser.add_argument("-v", "--verbose", action="store_true",
                     help="increase output verbosity")
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 ciao=return_birthday('Albert Einstein')
-args = parser.parse_args('Albert Einstein')
+args = parser.parse_args()
 print (args, ciao)
 #return_birthday('Ada Lovelace')
 
