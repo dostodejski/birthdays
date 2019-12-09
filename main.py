@@ -11,7 +11,7 @@ parser.add_argument("-v", "--verbose", action="store_true")
 args = parser.parse_args()
 ciao= input('Inserisci il nome di uno scienziato:')
 blu= return_birthday(ciao)
-print ('La sua data di nascita è:', blu)
+#print ('La sua data di nascita è:', blu)
 #return_birthday
 
 
