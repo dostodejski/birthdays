@@ -9,7 +9,7 @@ parser.add_argument("-v", "--verbose", action="store_true")
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
 #ciao=return_birthday('Albert Einstein')
 args = parser.parse_args()
-ciao= input('Inserisci il nome di uno scienziato:')
+ciao= input('Inserisci il nome di uno scienziato:', type=str)
 print ('La sua data di nascita è:', return_birthday(ciao))
 #return_birthday
 
