@@ -28,6 +28,6 @@ parser = argparse.ArgumentParser(description='These are the birthdays of famous 
 #define arguments
 parser.add_argument('name', help='it is his birthday', type= str)
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
-args = parser.ArgumentParser
+args = parser.parse_arg
 print (args.return_birthday(name))
 
