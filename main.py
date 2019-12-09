@@ -23,9 +23,5 @@ parser.add_argument("name", help= "scientist name")
 args = parser.parse_args()
 risultato = args.name
 print (risultato)
-#ciao= input('Inserisci il nome di uno scienziato:')
-#return_birthday(ciao)
-#print ('La sua data di nascita è:', blu)
-#return_birthday
 
 
