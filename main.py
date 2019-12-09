@@ -6,6 +6,11 @@ birthdays = {
     'Donald Trump': '06/14/1946',
     'Rowan Atkinson': '01/6/1955'}
 
+def print_birthdays():
+    print('Welcome to the birthday dictionary. We know the birthdays of these people:')
+    for name1 in birthdays:
+        print(name1)
+
 def return_birthday(name):
     if name in birthdays:
         print('{}\'s birthday is {}.'.format(name, birthdays[name]))
@@ -16,9 +21,10 @@ import argparse
 #from mypackage.birthdays import return_birthday
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
-parser.add_argument("name", help= "one of the scientist name if in the list")
-parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
+parser.add_argument("name1", help= "the names of people in the list")
+parser.add_argument("--name", help= "insert one of the scientist name of the list")
 args = parser.parse_args()
+risultato1 = print_birthdays(args.name1)
 risultato = return_birthday(args.name)
 
 
