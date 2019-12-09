@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser(description='These are the birthdays of famous 
 #define arguments
 parser.add_argument('Albert Einstein', help='it is his birthday')
 parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
-args = parser.parse_args
+args = parser.parse_args()
 
 from mypackage.birthdays import return_birthday
 
