@@ -5,14 +5,6 @@ birthdays = {
     'Ada Lovelace': '12/10/1815',
     'Donald Trump': '06/14/1946',
     'Rowan Atkinson': '01/6/1955'}
-
-#def print_birthdays(fun):
- #   input('Write YES if you want to see the birthday dictionary', fun)
-  #  if fun == 'YES':
-   #     print('Welcome to the birthday dictionary. We know the birthdays of these people:')
-    #    for name in birthdays:
-     #       print(name)
-    #else: print('ERROR')
     
 def return_birthday(name):
     if name in birthdays:
@@ -25,10 +17,9 @@ import argparse
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
 parser.add_argument("name", help= "insert one of the scientist name of the list")
-#parser.add_argument("--fun", help= "birthday dictionary")
 args = parser.parse_args()
 risultato = return_birthday(args.name)
-#risultato1 = print_birthdays(args.fun)
+
 
 
 
