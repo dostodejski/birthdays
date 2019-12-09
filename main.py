@@ -8,8 +8,9 @@ parser.add_argument('name', help='it is his birthday', type=str)
 parser.add_argument("-v", "--verbose", action="store_true",
                     help="increase output verbosity")
 #parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
-args = parser.parse_args()
-answer=args.return_birthdays('name')
+ciao=return_birthdays('name')
+args = parser.parse_args('name')
+print ("the birthday of {} is {}".format(args, ciao))
 #return_birthday('Ada Lovelace')
 
 
