@@ -18,7 +18,7 @@ def return_birthday(name):
     else:
         print('Sadly, we don\'t have {}\'s birthday.'.format(name))
 
-parser = argparse.ArgumentParser(description='These are the birthdays of Albert Einstein and Alan Turing')
+parser = argparse.ArgumentParser(description='These are the birthdays of famous people')
 #define arguments
 parser.add_argument('name', help='it is his birthday', type= str)
 parser.add_argument('--Alan Turing', help= 'Alan Turing is not in this list')
