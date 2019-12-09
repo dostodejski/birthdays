@@ -9,7 +9,7 @@ args = parser.parse_args
 
 from mypackage.birthdays import return_birthday
 
-return_birthday(name)
+return_birthday.input(name)
 #return_birthday(name)
 
 
