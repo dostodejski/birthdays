@@ -5,6 +5,8 @@ birthdays = {
     'Ada Lovelace': '12/10/1815',
     'Donald Trump': '06/14/1946',
     'Rowan Atkinson': '01/6/1955'}
+
+Nomi=birthdays[]
     
 def return_birthday(name):
     if name in birthdays:
@@ -17,6 +19,7 @@ import argparse
 parser = argparse.ArgumentParser(description='program that gives back birthdays of scientists')
 #define arguments
 parser.add_argument("name", help= "insert one of the scientist name of the list", type=str, default=None)
+parser.add_argument("Nomi", type=str, help="Names inside the list", choices = ["Albert Einstein", "Benjamin Franklin", "Ada Lovelace", "Donald Trump", "Rowan Atkinson"])
 args = parser.parse_args()
 risultato = return_birthday(args.name)
 
