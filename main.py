@@ -6,7 +6,7 @@ birthdays = {
     'Donald Trump': '06/14/1946',
     'Rowan Atkinson': '01/6/1955'}
 
-Nomi=birthdays[]
+Nomi=birthdays()
     
 def return_birthday(name):
     if name in birthdays:
